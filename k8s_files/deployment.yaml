@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: prime_deployment
+  name: prime-deployment
   labels:
     app: prime-clone
 spec:
