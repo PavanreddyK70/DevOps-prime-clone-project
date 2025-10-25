@@ -2,9 +2,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: pandacloud-app
+  name: prime_service
   labels:
-    app: pandacloud-app
+    app: prime-clone
 spec:
   ports:
   - name: http
