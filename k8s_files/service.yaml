@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: prime_service
+  name: prime-service
   labels:
     app: prime-clone
 spec:
@@ -12,6 +12,6 @@ spec:
     protocol: TCP
     targetPort: 3000
   selector:
-    app: pandacloud-app
+    app: prime-clone
   type: LoadBalancer
 ...
